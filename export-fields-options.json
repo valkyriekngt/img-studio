@@ -67,42 +67,30 @@
     "isExploreVisible": true,
     "options": [
       {
-        "value": "gemo",
-        "label": "G\u00e9mo"
+        "value": "Carousell",
+        "label": "Carousell"
       },
       {
-        "value": "mellowYellow",
-        "label": "Mellow Yellow"
+        "value": "Mudah",
+        "label": "Mudah"
       },
       {
-        "value": "bocage",
-        "label": "Bocage"
+        "value": "Cho Tot",
+        "label": "Cho Tot"
       },
       {
-        "value": "maje",
-        "label": "Maje"
+        "value": "Laku6",
+        "label": "Laku6"
       },
       {
-        "value": "bash",
-        "label": "Ba&sh"
-      },
-      {
-        "value": "sessun",
-        "label": "Sess\u00f9n"
-      },
-      {
-        "value": "americanVintage",
-        "label": "American Vintage"
-      },
-      {
-        "value": "theKooples",
-        "label": "The Kooples"
+        "value": "Carousell Media Group",
+        "label": "cmg"
       }
     ]
   },
   "contextCollection": {
-    "label": "To which collection(s) is it associated?",
-    "name": "Associated collection(s)",
+    "label": "What type of product is the subject?",
+    "name": "Product Type",
     "type": "multiple-select",
     "isUpdatable": true,
     "isMandatory": false,
@@ -110,20 +98,20 @@
     "isExploreVisible": true,
     "options": [
       {
-        "value": "spring",
-        "label": "Spring"
+        "value": "fashion",
+        "label": "fasion"
       },
       {
-        "value": "summer",
-        "label": "Summer"
+        "value": "electronics",
+        "label": "electronics"
       },
       {
-        "value": "fall",
-        "label": "Fall"
+        "value": "vehicle",
+        "label": "vehicle"
       },
       {
-        "value": "winter",
-        "label": "Winter"
+        "value": "house",
+        "label": "house"
       }
     ]
   }

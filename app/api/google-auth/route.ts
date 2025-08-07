@@ -18,12 +18,8 @@ export async function GET(req: NextRequest) {
   let response = {}
 
   try {
-    if (req.headers.get('X-Goog-Authenticated-User-Email')) {
-      response = {
-        targetPrincipal: req.headers.get('X-Goog-Authenticated-User-Email'),
-      }
-    } else {
-      throw Error('ID header not found')
+    response = {
+      targetPrincipal: 'anonymous',
     }
   } catch (error) {
     console.error(error)

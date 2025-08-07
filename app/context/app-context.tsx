@@ -98,13 +98,6 @@ export function ContextProvider({ children }: { children: React.ReactNode }) {
 
           if (authParams !== undefined && authParams['targetPrincipal'] !== undefined) {
             targetPrincipal = authParams['targetPrincipal']
-            const principalToUserFilters = process.env.NEXT_PUBLIC_PRINCIPAL_TO_USER_FILTERS
-              ? process.env.NEXT_PUBLIC_PRINCIPAL_TO_USER_FILTERS
-              : ''
-
-            principalToUserFilters
-              .split(',')
-              .forEach((filter) => (targetPrincipal = targetPrincipal.replace(filter, '')))
           } else {
             throw Error('An unexpected error occurred while fetching User ID')
           }
